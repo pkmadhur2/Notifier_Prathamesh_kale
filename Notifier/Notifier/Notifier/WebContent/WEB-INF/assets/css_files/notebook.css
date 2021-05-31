@@ -1,0 +1,135 @@
+@charset "ISO-8859-1";
+.dropdown-menu
+{
+	overflow-y:scroll;
+	
+	max-height:300px;
+	width:400px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+     padding: 5px 20px;
+    line-height: 20px;
+    margin-bottom: 15px;
+    animation: grow 0.3s ease-in forwards;
+    background-color: #fff;
+}
+.dropdown-menu::-webkit-scrollbar
+{
+	display:none;
+}
+@keyframes grow {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+body{
+   background-color: #D3D3D3;
+   
+  }
+  
+   .badge{
+  position:relative;
+  top:-10px;
+  left:-5px;
+  border:1px solid red;
+  background-color:red;
+  border-radius:50%;
+  }
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+	  padding-top:10px;
+	  background-color: #D79922 ;
+	  border:0px;
+      color:black;
+    }
+	.navbar li
+	{
+		padding-left:10px;
+		padding-right:10px;
+		
+	}
+	.navbar li:hover{
+		border-bottom:2px dotted white;
+	}
+  
+    .row.content 
+	{
+		height: 450px
+	}
+    .sidenav 
+	{
+	
+      padding-top: 20px;
+      background-color: white;
+      height: auto;
+	  margin-top:20px;
+	  margin-left:20px;
+	  border-radius:10px;
+	  padding-bottom:25px;
+    }
+    
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+	  position:absolute;
+    }
+    @media screen and (max-width: 767px) 
+	{
+		.sidenav 
+		{
+			height: 250px;
+			margin-right: 20px;
+		}
+		.row.content 
+		{
+			height:auto;
+		} 
+		div #main_frame
+		{
+			height:auto;
+			margin-right:20px;
+			width:91%;
+			padding-bottom:25px;
+		}
+	}
+	.footer 
+	{
+	  left: 0;
+	  bottom: 0;
+	  width: 100%;
+	  height:60px;
+	  background-color: 	#D79922;
+	  color: white;
+	  text-align: center;
+	  padding-top:25px;
+position:fixed;
+    }
+#logo{
+	font-family: 'Righteous', cursive;
+	color:white;
+}
+#main_frame
+{
+	margin-top:20px;
+	margin-left:20px;
+	 background-color: white;
+	 width:80%;
+	 border-radius:10px;
+	 height:auto;
+	 padding-top:20px;
+	margin-bottom:20px;
+
+padding-bottom:30px;
+}
+#main_content1
+{
+border:1px solid black;
+padding:25px 25px 25px 25px;
+border-radius:10px;
+}
